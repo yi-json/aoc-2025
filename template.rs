@@ -1,6 +1,5 @@
 use std::fs;
 use std::time::Instant;
-use itertools::Itertools;
 
 fn main() {
     let day_name = "dayXX";
@@ -24,7 +23,7 @@ fn main() {
     println!("Part 2: {}  (Time: {:?})", p2_solution, duration);
 }
 
-// Logic for Part 1
+
 fn part1(input: &str) -> i64 {
     // TODO: Write your logic here
     // Tip: Use input.lines() to iterate over rows
@@ -32,7 +31,7 @@ fn part1(input: &str) -> i64 {
     0
 }
 
-// Logic for Part 2
+
 fn part2(input: &str) -> i64 {
     // TODO: Write your logic here
     
