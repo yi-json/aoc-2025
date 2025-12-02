@@ -1,0 +1,12 @@
+[package]
+name = "aoc-2025"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# For parsing strings effortlessly
+itertools = "0.13.0"  # .tuple_windows(), .counts(), .unique()
+regex = "1.10.0"      # Essential for complex input parsing
+
+# (Optional) For automatic input downloading if you get fancy later
+# reqwest = { version = "0.12", features = ["blocking"] }
